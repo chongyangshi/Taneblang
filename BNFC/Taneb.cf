@@ -1,0 +1,15 @@
+token RNo ({"R"}(digit)+) ;
+
+IInt. Exp ::= Integer ;
+INeg. Exp1 ::= "-"Integer;
+coercions Exp 1;
+
+Seqn. Stm   ::= Stm1 ";" Stm ;
+Ifblk. Stm1 ::= "T" RNo "<" Stm1 ">" "<" Stm1 ">";
+RAdd. Stm1  ::= Exp "A" RNo ;
+Whblk. Stm1 ::= "N" RNo "<" Stm1 ">" ;
+Prnt. Stm1  ::= "E" RNo ;
+Prd. Stm1   ::= "B" RNo ;
+coercions Stm 1;
+
+comment "/*" "*/";
