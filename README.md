@@ -26,7 +26,7 @@ To lex and parse a program:
     cd BNFC
     ghci
     :load ParTaneb
-    pStm . myLexer $ "100 A R0
+    pStm . myLexer $ "100 A R0"
 
 ## Semantics
 Not done yet, currently only have the front end working.
