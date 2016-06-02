@@ -7,11 +7,16 @@ Thanks to [Taneb](https://github.com/Taneb) for his kind permission to use this 
 ## Syntax
 Five operators (T, A, N, E, B), register numbers start with R (e.g. R0, R1).
 
-**Comment**: `/*This is a comment.*/` \
-**Print**: `E R0;` Print the value in register R0.\
-**Add**: `10 A R0;` Add 10 to register R0.\
-**If**: `T R1 <10 A R2> <-10 A R2>;` If value of R1 is 0 then add 10 to R2, otherwise subtract 10.\
-**While**: `N R2 <E R0; -1 A R2>;` While value of R2 is 0, print value in R0 and decrement R2.\
+**Comment**: `/*This is a comment.*/` 
+
+**Print**: `E R0;` Print the value in register R0.
+
+**Add**: `10 A R0;` Add 10 to register R0.
+
+**If**: `T R1 <10 A R2> <-10 A R2>;` If value of R1 is 0 then add 10 to R2, otherwise subtract 10.
+
+**While**: `N R2 <E R0; -1 A R2>;` While value of R2 is 0, print value in R0 and decrement R2.
+
 **Read**: `B R3;` Block for keyboard input, and save input value into register R3.
 
 ## Lexing and Parsing
