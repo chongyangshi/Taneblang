@@ -2,7 +2,7 @@
 
 A language designed out of boredom, with no real purpose and probably not Turing-complete? 
 
-Thanks to [Taneb](https://github.com/Taneb) for her kind permission to use this name. 
+Thanks to [Taneb](https://github.com/Taneb) for their kind permission to use this name. 
 
 ## Syntax
 Five operators (T, A, N, E, B), register numbers start with R (e.g. R0, R1).
